@@ -133,7 +133,7 @@ pip install hyperliquid-python-sdk  # For data collection
 
 ## Quick Start
 
-### 1. Collect Data (Optional - if using live data)
+### 1. Collect Data (the calculate_avellaneda_parameters.py would ideally need several days of data)
 
 ```bash
 python hyperliquid_data_collector.py
@@ -217,5 +217,6 @@ The model incorporates several risk management mechanisms:
 Avellaneda, M., & Stoikov, S. (2008). High-frequency trading in a limit order book. *Quantitative Finance*, 8(3), 217-224.
 
 ## License
+
 
 This implementation is for educational and research purposes. Please ensure compliance with applicable trading regulations and exchange terms of service when using with live data.
