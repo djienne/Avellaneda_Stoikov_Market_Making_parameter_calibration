@@ -99,7 +99,7 @@ A high-performance data collection system for gathering real-time market data fr
 1. **Price Data**: Best bid/offer updates
 2. **Trade Data**: Executed transactions with price, size, side
 3. **Order Book Data**: Full depth order book snapshots
-
+The `calculate_avellaneda_parameters.py` script would ideally need several days of data collected.
 #### Configuration
 
 ```python
@@ -133,12 +133,13 @@ pip install hyperliquid-python-sdk  # For data collection
 
 ## Quick Start
 
-### 1. Collect Data (the `calculate_avellaneda_parameters.py` would ideally need several days of data)
+### 1. Collect Data
 
 ```bash
 python hyperliquid_data_collector.py
 ```
 Only `prices_*.csv` and `trades_*.csv` are used by `calculate_avellaneda_parameters.py`, as it is now. `orderbooks_*.csv` are not used.
+The `calculate_avellaneda_parameters.py` script would ideally need several days of data collected.
 
 ### 2. Calculate Parameters
 
@@ -221,4 +222,5 @@ Avellaneda, M., & Stoikov, S. (2008). High-frequency trading in a limit order bo
 
 
 This implementation is for educational and research purposes. Please ensure compliance with applicable trading regulations and exchange terms of service when using with live data.
+
 
