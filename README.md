@@ -133,11 +133,12 @@ pip install hyperliquid-python-sdk  # For data collection
 
 ## Quick Start
 
-### 1. Collect Data (the calculate_avellaneda_parameters.py would ideally need several days of data)
+### 1. Collect Data (the `calculate_avellaneda_parameters.py` would ideally need several days of data)
 
 ```bash
 python hyperliquid_data_collector.py
 ```
+Only `prices_*.csv` and `trades_*.csv` are used by `calculate_avellaneda_parameters.py`, as it is now. `orderbooks_*.csv` are not used.
 
 ### 2. Calculate Parameters
 
@@ -220,3 +221,4 @@ Avellaneda, M., & Stoikov, S. (2008). High-frequency trading in a limit order bo
 
 
 This implementation is for educational and research purposes. Please ensure compliance with applicable trading regulations and exchange terms of service when using with live data.
+
