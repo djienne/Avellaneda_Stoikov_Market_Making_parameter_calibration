@@ -1,0 +1,31 @@
+{
+    "ticker": "ETH",
+    "timestamp": "2025-09-04T21:20:47.805195",
+    "market_data": {
+        "mid_price": 4288.45,
+        "sigma": 0.025908689524529602,
+        "A": 1.050878434269523,
+        "k": 0.026488681207222406
+    },
+    "optimal_parameters": {
+        "gamma": 0.41628
+    },
+    "current_state": {
+        "time_remaining": 0.16666,
+        "inventory": 10
+    },
+    "calculated_values": {
+        "reservation_price": 4288.449534298306,
+        "gap": 0.0004657016934288549,
+        "spread_base": 13.530987051860565,
+        "half_spread": 6.765493525930283
+    },
+    "limit_orders": {
+        "ask_price": 4295.214562122544,
+        "bid_price": 4281.683575070682,
+        "delta_a": 6.765027824236854,
+        "delta_b": 6.7659592276237115,
+        "delta_a_percent": 0.15774995217938542,
+        "delta_b_percent": 0.15777167106119255
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "ticker": "SOL",
+    "timestamp": "2025-09-04T21:22:24.982439",
+    "market_data": {
+        "mid_price": 203.805,
+        "sigma": 0.033381144742256556,
+        "A": 0.683724092472545,
+        "k": 0.4395916831726701
+    },
+    "optimal_parameters": {
+        "gamma": 5.0
+    },
+    "current_state": {
+        "time_remaining": 0.16666,
+        "inventory": 10
+    },
+    "calculated_values": {
+        "reservation_price": 203.79571453123108,
+        "gap": 0.009285468768922556,
+        "spread_base": 1.00717373708554,
+        "half_spread": 0.50358686854277
+    },
+    "limit_orders": {
+        "ask_price": 204.29001593100494,
+        "bid_price": 203.28284219391938,
+        "delta_a": 0.49430139977384746,
+        "delta_b": 0.5128723373116926,
+        "delta_a_percent": 0.2425364440390802,
+        "delta_b_percent": 0.2516485548988948
+    }
+}
